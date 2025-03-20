@@ -2,7 +2,7 @@
 **🔍** Research Project under Prof. Mathew Otten @ UW-Madison
 
 ## Overview
-This research focuses on finding quantum resource estimates to determine the ground state energy of the FeMoco molecule using quantum algorithms. I used the Li[[2]](#2) FeMoco Hamiltonian, which consists of 76 orbitals and 113 electrons. I leveraged both Q# and Qualtran to build and test algorithms, utilizing the Q# estimator framework to find and compare resource estimates—such as `Logical Qubits`, `Logical T Gates`, `Total Logical Gates`, and `Runtime`—across three approaches: `First-Order Trotterized QPE`, `Double-Factorized (DF) Qubitized QPE`, and `Tensor Hypercontraction (THC) Qubitized QPE`. The performance ranking emerged as ***THC > DF > Trotter***.
+This research focuses on finding quantum resource estimates to determine the ground state energy of the FeMoco molecule using quantum algorithms. I used the Li[[2]](#references-2) FeMoco Hamiltonian, which consists of 76 orbitals and 113 electrons. I leveraged both Q# and Qualtran to build and test algorithms, utilizing the Q# estimator framework to find and compare resource estimates—such as `Logical Qubits`, `Logical T Gates`, `Total Logical Gates`, and `Runtime`—across three approaches: `First-Order Trotterized QPE`, `Double-Factorized (DF) Qubitized QPE`, and `Tensor Hypercontraction (THC) Qubitized QPE`. The performance ranking emerged as ***THC > DF > Trotter***.
 
 ## Contents
 1. - [**Resource Estimation Using Q#**](#resource-estimation-using-q)
