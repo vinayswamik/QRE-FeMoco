@@ -55,7 +55,7 @@ FeMoco molecule resource estimates
 Next, By using existing double-factorized walk operator within the Qualtran framework built a quibitzed qpe version and estimated the resource of femoco molecule.    
 #### DF Results
 FeMoco molecule resource estimates
-<img src="femoco_results/DF_results.png"> 
+<img height="200" src="femoco_results/DF_results.png"> 
 
 ### Tensor-Hypercontraction (THC) Qubitized QPE
 Finally, Qualtran have pre computed resource estimates for Li femoco hamiltonian. To compare with previous methods i applied a Tensor-Hypercontraction (THC) method in combination with qubitized QPE. 
