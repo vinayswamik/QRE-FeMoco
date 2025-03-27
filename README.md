@@ -28,13 +28,18 @@ This research focuses on finding quantum resource estimates to determine the gro
 I began by implementing a first-order Trotterized Quantum Phase Estimation (QPE) algorithm using Q#, Microsoft's quantum programming language. This approach was tested on several small molecules to estimate their ground state energies, and I used Q#’s built-in resource estimator to determine key metrics like the number of logical qubits, logical T-gates, total logical gates, and runtime.
 
 #### Results
-Below are the ground state energy estimation results for He2 and Helium Hydrate molecule using first order trotterization algorithm in qh
+Below are the ground state energy estimation results for He2 and Helium Hydrate molecule using first order trotterization algorithm
 
-## Helium Dimer (He2)
-<img width="450" height="350" src="energy_estimates/he2_energy_estimation.png"> 
-
-## Helium Hydrate (HeH)
-<img width="500" height="400" src="energy_estimates/heh_energy_estimates.png">
+<table>
+  <tr>
+    <th>Helium Dimer (He₂)</th>
+    <th>Helium Hydrate (HeH)</th>
+  </tr>
+  <tr>
+    <td><img src="energy_estimates/he2_energy_estimation.png" width="500"></td>
+    <td><img src="energy_estimates/heh_energy_estimates.png" width="600"></td>
+  </tr>
+</table>
  
 #### Challenges
 However, when I attempted to estimate resources for the FeMoco Hamiltonian with nearly 8 million pauli terms—the method ran into significant issues. Q# requires that the Hamiltonian be passed as a single large string from Python, and encoding/decoding such a massive string proved to be both computationally expensive and inefficient. Splitting the Hamiltonian into smaller chunks was also attempted, but this approach resulted in slow and inaccurate estimates
