@@ -34,7 +34,7 @@ However, when I attempted to estimate resources for the FeMoco Hamiltonian with 
 ## Resource Estimation Using Qualtran
 
 ### Trotterized QPE
-To address the challenges faced with Q#, I moved to using Qualtran, a Python-based resource estimation framework developed by Google. I reimplemented the first-order Trotterized QPE algorithm in Qualtran, estimating the FeMoco resources by considering just the first one million Hamiltonian terms to keep the problem tractable.
+To address the challenges faced with Q#, I moved to using Qualtran, a Python-based resource estimation framework developed by Google. I reimplemented the first-order Trotterized QPE algorithm in Qualtran, estimating the FeMoco resources by considering just the first 100k Hamiltonian terms to keep the problem tractable.
 #### Trotter Results
 
 ### Double Factorized (DF) Qubitized QPE
