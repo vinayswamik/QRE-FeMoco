@@ -18,6 +18,7 @@ This research focuses on finding quantum resource estimates to determine the gro
         - [2.3.1 THC Results](#thc-results)
 3. - [**Comparison**](#comparison)
 4. - [**Future Interests**](#future-interests)
+5. - [**Further Implementations**](#further-implementations)
 
 ---
 
@@ -72,12 +73,9 @@ yet to post plots
 ## Future Interests
 ✴️ Looking ahead, I'm interested in exploring Quantum Signal Processing (QSP) algorithms. Although QSP holds theoretical promise for even greater efficiency, its implementation poses significant challenges. Additionally, refining these methods for handling even larger Hamiltonians remains an important goal.
 
----
+## Further Implementations
+Currently, Qualtran’s `THC Qubitized QPE` implementation is not functioning. We have raised an issue with the maintainers and are awaiting their fix; alternatively, we may develop our own version. Once that is resolved, we will proceed to test multiple FCIDump files using the `Trotterized QPE`, `DF Qubitized QPE`, and `THC Qubitized QPE` algorithms.
 
-## Getting Started
-### Clone Repo
-### Install Dependecies
-### Run Jupyter Notebooks for each section
 ---
 ## References
 
