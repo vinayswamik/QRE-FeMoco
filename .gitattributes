@@ -1,0 +1,2 @@
+QRE-FeMoco/femoco_qubit_ham.hdf5.zip filter=lfs diff=lfs merge=lfs -text
+femoco_qubit_ham.hdf5.zip filter=lfs diff=lfs merge=lfs -text
