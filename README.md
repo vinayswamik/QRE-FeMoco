@@ -64,11 +64,11 @@ Finally, Qualtran have pre computed resource estimates for Li femoco hamiltonian
 yet to post plots
 ## Comparison
 
-| Algorithm                | Logical Qubits | Logical T-Gates | Total Logical Gates | Runtime  |
-|--------------------------|---------------|----------------|----------------------|----------|
-| **Trotterized QPE**      | 86            | 7.5 Trillion   | 7.9 Trillion         | 2 years  | 
-| **DF Qubitized QPE**     | 2.05 k        | 2.1 Trillion   | 2.2 Trillion         | 67 days  | 
-| **THC Qubitized QPE**    | --            | --             | --                   | --       | 
+| Algorithm                        | Logical Qubits | Logical T-Gates | Total Logical Gates | Runtime  |
+|----------------------------------|----------------|-----------------|---------------------|----------|
+| **Trotterized QPE(100k terms)**  | 86             | 15.5 Trillion   | 16.4 Trillion       | 4 years  | 
+| **DF Qubitized QPE**             | 2.05 k         | 2.1 Trillion    | 2.2 Trillion        | 67 days  | 
+| **THC Qubitized QPE**            | --             | --              | --                  | --       | 
 
 ## Future Interests
 ✴️ Looking ahead, I'm interested in exploring Quantum Signal Processing (QSP) algorithms. Although QSP holds theoretical promise for even greater efficiency, its implementation poses significant challenges. Additionally, refining these methods for handling even larger Hamiltonians remains an important goal.
