@@ -47,16 +47,16 @@ However, when I attempted to estimate resources for the FeMoco Hamiltonian with 
 ## Resource Estimation Using Qualtran
 
 ### Trotterized QPE
-To address the challenges faced with Q#, I moved to using Qualtran, a Python-based resource estimation framework developed by Google. I reimplemented the first-order Trotterized QPE algorithm in Qualtran, estimating the FeMoco resources by considering just the first 50k Hamiltonian terms to keep the problem tractable.
+To address the challenges faced with Q#, I moved to using Qualtran, a Python-based resource estimation framework developed by Google. I reimplemented the first-order Trotterized QPE algorithm in Qualtran, estimating the FeMoco resources by considering just the first 100k Hamiltonian terms to keep the problem tractable.
 #### Trotter Results
 FeMoco molecule resource estimates
-<img  src="femoco_results/Trotter_results_50K_terms.png"> 
+<img  src="femoco_results/Trotter_results_100K_terms.png"> 
 
 ### Double Factorized (DF) Qubitized QPE
 Next, By using existing double-factorized walk operator within the Qualtran framework built a quibitzed qpe version and estimated the resource of femoco molecule.    
 #### DF Results
 FeMoco molecule resource estimates
-<img height="200" src="femoco_results/DF_results.png"> 
+<img  src="femoco_results/DF_results.png"> 
 
 ### Tensor-Hypercontraction (THC) Qubitized QPE
 Finally, Qualtran have pre computed resource estimates for Li femoco hamiltonian. To compare with previous methods i applied a Tensor-Hypercontraction (THC) method in combination with qubitized QPE. 
