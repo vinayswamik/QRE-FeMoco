@@ -59,7 +59,7 @@ Next, By using existing double-factorized walk operator within the Qualtran fram
 ### Tensor-Hypercontraction (THC) Qubitized QPE
 Finally, Qualtran have pre computed resource estimates for Li femoco hamiltonian. To compare with previous methods i applied a Tensor-Hypercontraction (THC) method in combination with qubitized QPE. 
 #### THC Results
-❗️ yet to post plots
+❗️ yet to post results
 ## Comparison
 
 | Algorithm                        | Logical Qubits | Logical T-Gates | Total Logical Gates | Runtime  |
